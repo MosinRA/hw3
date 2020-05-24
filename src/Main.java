@@ -18,32 +18,6 @@ public class Main {
     }
 
 
-// методы проб и ошибок
-//        System.out.println(Wr);
-//        Map<List<String>, Integer> W = new HashMap<>();
-//        for (int i = 0; i < Wr.size(); i++) {
-////           String count = W.get(Wr);
-//            Set <String> set = new HashSet<>(Wr);
-//            Wr.clear();
-//            Wr.addAll(set);
-//
-//          W.put(Wr, W.getOrDefault(Wr, 0) + 1);
-//
-//
-//
-//        }
-//        System.out.println(W);
-//        Set<String> foundStrings = new HashSet<>();
-//        Set<String> duplicates = new HashSet<>();
-//        for (String str : Wr) {
-//            if (foundStrings.contains(str)) {
-//                duplicates.add(str);
-//            } else {
-//                foundStrings.add(str);
-//            }
-//        }
-//        System.out.println("Повторяющиеся имена " + duplicates + " Количество дубликатов = " + duplicates.size());
-//        System.out.println("Не повторяющиеся имена = " + foundStrings + foundStrings.size());
 }
 
 

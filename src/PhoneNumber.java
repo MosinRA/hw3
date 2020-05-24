@@ -21,7 +21,7 @@ public class PhoneNumber {
         for (Map.Entry <String, String> entry: Phones.entrySet()){
             System.out.println("Фамилия в справочнике: " + entry.getKey() + "," + " Номер телефона: " + entry.getValue());
         }
-        System.out.println(Phones.get("Самарин"));
+        System.out.println(Phones.get("Иванов"));
     }
 
     public static void upuatePhone(Map<String, String> map, String name, String Phone) {
